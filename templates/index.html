@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVEs Search</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>CVEs Search</h1>
+    <div id="searchContainer">
+        <input type="text" id="searchKey" placeholder="Enter key to search for CVEs..." />
+        <button onclick="searchVulnerabilities(); return false;">Search</button>
+    </div>
+    <ul>
+        <li>
+            <button onclick="displayInfo(); return false;">
+                Info
+            </button>
+        </li>
+        <li>
+            <button onclick="createLimitInput(this, '/get/all'); return false;">
+                All Vulnerabilities from 30 days
+            </button>
+        </li>
+        <li>
+            <button onclick="createLimitInput(this, '/get/new'); return false;">
+                Latest Vulnerabilities
+            </button>
+        </li>
+        <li>
+            <button onclick="createLimitInput(this, '/get/known'); return false;">
+                Known Vulnerabilities
+            </button>
+        </li>
+    </ul>
+    <div id="responseContainer"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

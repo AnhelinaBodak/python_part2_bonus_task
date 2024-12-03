@@ -1,0 +1,101 @@
+#responseContainer {
+    width: 95%;
+    height: 50px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #74ADF8;
+}
+
+button.active {
+    background-color: #74ADF8;
+    color: white;
+}
+
+#searchContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#searchContainer input {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#searchContainer button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchContainer button:hover {
+    background-color: #74ADF8;
+}
+
+h1 {
+    text-align: center;
+    color: #14335a;
+}
+
+.limit-input-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.limit-input-container input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.limit-input-container button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.limit-input-container button:hover {
+    background-color: #74ADF8;
+}
