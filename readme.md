@@ -1,6 +1,6 @@
 # CVE FastAPI App with ElasticSearch
 
-A FastAPI application to interact with CVE (Common Vulnerabilities and Exposures)data from ElasticSearch.
+A FastAPI application to interact with CVE (Common Vulnerabilities and Exposures) data using ElasticSearch.
 
 # Project Structure
 - **api/**: Contains the logic for handling the various endpoints.
